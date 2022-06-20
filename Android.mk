@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),twolip)
+ifneq ($(filter twolip,$(TARGET_DEVICE)),)
 
 endif
